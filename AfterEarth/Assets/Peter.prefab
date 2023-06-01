@@ -479,8 +479,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   acceleration: 500
-  speed: 2
+  speed: 4
   jumpForce: 350
+  underwater: 0
   feetColliderWidth: 1.2
   feetColliderHeight: 6.42
   feetColliderVertOffset: 0
@@ -499,6 +500,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   currentMainCam: {fileID: 0}
   portalPrefab: {fileID: 0}
+  wheelPrefab: {fileID: 0}
+  arrowPrefab: {fileID: 0}
 --- !u!95 &6421497330178559523
 Animator:
   serializedVersion: 3
